@@ -307,3 +307,23 @@ footer a:hover{
         height: auto;
     }
 }
+
+@media screen and (min-width: 1280px) {
+    .hero-box {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .hero-header{
+        width: 30%;
+        text-transform: uppercase;
+        margin-left: 80px;
+    }
+
+    .hero-text {
+        width: 40%;
+        text-transform: uppercase;
+        margin-right: 80px;
+    }
+}
